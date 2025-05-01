@@ -18,6 +18,16 @@ Run the server:
 go build -o notely && ./notely
 ```
 
+If on Windows do the following. Bootdev CLI requires WSL unfortunately, haven't found a way around it.
+
+```pwsh
+go build -o notely.exe && ./notely
+```
+
 *This starts the server in non-database mode.* It will serve a simple webpage at `http://localhost:8080`.
 
 You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
+
+Akidi's version of Boot.dev's Notely app.
+
+![Badge for tests](https://github.com/Akidi/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
