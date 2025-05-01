@@ -3,6 +3,7 @@
     "auth",
     "ci/cd",
     "docs",
-    "project"
+    "project",
+    "gosec"
   ]
 }
