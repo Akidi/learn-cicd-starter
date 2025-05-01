@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
     "auth",
-    "ci/cd"
+    "ci/cd",
+    "docs"
   ]
 }
